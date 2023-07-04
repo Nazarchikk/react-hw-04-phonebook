@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-
-export default function ContactForm({addContact, value, name , number, compareContact}) { 
+export default function ContactForm({addContact, value, name , number}) { 
     return(
         <>
             <form onSubmit={addContact}>
